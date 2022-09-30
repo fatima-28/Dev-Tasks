@@ -137,7 +137,7 @@ td{
 }
 body{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .last-button{
@@ -185,7 +185,7 @@ tr:hover{
   animation-iteration-count: infinite;
 }
 @keyframes title {
-    0% {color: rrgb(0, 0, 0)}
+    0% {color: rgb(0, 0, 0)}
   500% {color: red;}
   90% {color: yellow;}
   100% {color: black;}
@@ -193,4 +193,87 @@ tr:hover{
 body{
     background-color: rgb(196, 255, 255); /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, rgb(199, 247, 247) , rgb(248, 206, 252));
+}
+input{
+    border-radius : 20px;
+    cursor: pointer;
+    border: 2px solid green;
+}
+input:focus{
+  background-color: rgb(255, 255, 209);
+}
+.animating-box{
+    border: 2px dotted black;
+    width: 25px;
+    height: 1200px;
+    background-color: rgb(128, 204, 255);
+    animation-name: moving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  position: relative
+}
+@keyframes moving {
+    0% {top: -50px;}
+  50% {top: 90px;}
+  80% {top: 0px;}
+  90% {top: 90px;}
+  100% {top: -50px;}
+}
+.animating-box-second{
+    border: 2px dotted black;
+    width: 25px;
+    height: 1200px;
+    
+    background-color: rgb(255, 170, 244);
+    animation-name: moving;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  position: relative;
+  bottom: -60px;
+}
+
+/* @keyframes movingSecond {
+    0% {top: 0px;}
+  50% {top: -90px;}
+  80% {top: 0px;}
+  90% {top: -90px;}
+  100% {top: 0px;}
+} */
+.animate-text{
+    rotate: 90deg;
+    font-size: 20px;
+     animation-name: textColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes textColor {
+    0% {color: black;}
+  50% {color: white;}
+  100% {color: black;}
+}
+.animating-box,.animating-box-second{
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 1s;
+cursor: pointer;
+padding: 10px;
+box-sizing: border-box;
+}
+.animating-box:hover,.animating-box-second:hover{
+    transform: scale(1.2);
+}
+.car{
+    width: 110px;
+    height: 50px;
+    border: none;
+    animation-name: carDriving;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes carDriving {
+    0% {margin-left: -80px;}
+  
+  100% {margin-left: 500px;}
 }
