@@ -1,0 +1,141 @@
+
+.title{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-info img{
+    width: 200px;
+    height: 280px;
+    margin-left: 40px;
+}
+.main-info{
+    display: flex;
+}
+.text{
+    margin-top: 20px;
+}
+.text p{
+    margin-top: -4px;
+     font-size: 18px;
+   margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: blueviolet;
+    margin-left: 5px;
+}
+a:hover{
+    color: rgb(9, 12, 187);
+}
+.birthday{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.text-birthday{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#birthday{
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.box{
+    margin-top: 20px;
+}
+.box p{
+  
+    font-size: 22px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    margin-right: 10px;
+    font-size: 17px;
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul li:before{ content:"- ";}
+ul{list-style: none;}
+li{
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.key-skills input{
+    margin-left: 10px;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button{
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+     box-shadow: 2px 2px ;
+    background-color: white;
+}
+button:hover{
+   color: white;
+    background-color: rgb(0, 0, 0);
+}
+.options{
+    margin-top: 20px;
+}
+.options label{
+    font-size: 21px;
+}
+select{
+    width: 100px;
+    height: 30px;
+   cursor: pointer;
+   
+}
+.salary-inner{
+    display: flex;
+}
+.salary-inner input{
+    height: 20px;
+    width: 70px;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+.usd{
+    font-size: 18px;
+    color: green;
+    margin-left: 2px;
+}
+main{
+    margin-left: 80px;
+}
+table, th, td {
+  border:2px solid black;
+  border-collapse: collapse;
+}
+table{
+    margin-top: 50px;
+   
+}
+th,tr{
+    height: 50px;
+   
+}
+td{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-button{
+    margin-top: 20px;
+
+
+}
