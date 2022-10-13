@@ -86,7 +86,7 @@ ul li {
 }
 
 .background {
-  background-image: url(../bck-image.png);
+  background-image: url(../../img/bck-image.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-left: 50px;
@@ -232,4 +232,46 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.second-main-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 39px;
+}
+
+.second-main-inner .second-main-items {
+  border-radius: 20px;
+  border: 1px solid #1E6140;
+  height: 40px;
+  width: 200px;
+  margin-right: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.second-main-inner .second-main-items img {
+  height: 22px;
+}
+
+.second-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second-main-items:nth-child(1) {
+  background-color: #E74E13;
 }

@@ -1,5 +1,5 @@
 .background{
-    background-image: url(../bck-image.png);
+    background-image: url(../../img/bck-image.png);
    background-size: cover;
     background-repeat: no-repeat;
     padding-left: 50px;
@@ -107,4 +107,31 @@ a{
 .second-main-items{
     display: flex;
     justify-content: center;
+}
+.second-main-inner{
+    display: flex;
+    margin-top: 39px;
+    .second-main-items{
+        border-radius: 20px;
+        border: 1px solid #1E6140;
+        height: 40px;
+        width: 200px;
+        margin-right: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+cursor: pointer;
+ img{
+        height: 22px;
+    }
+        
+    }
+}
+.second-main{
+    display: flex;
+    justify-content: center;
+}
+.second-main-items:nth-child(1){
+    background-color: #E74E13;
+   
 }
