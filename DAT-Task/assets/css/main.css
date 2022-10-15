@@ -275,3 +275,111 @@ a {
 .second-main-items:nth-child(1) {
   background-color: #E74E13;
 }
+
+.second-main-inners-item:nth-child(1) {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.second-main-inners-item {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-main-inners-item p {
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.magazine-inner {
+  padding-top: 42px;
+}
+
+.magazine-inner img {
+  width: 376px;
+  height: 347px;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+
+.magazine-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 120px;
+}
+
+.magazine-main .h2 {
+  font-weight: 100;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-button {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E74E13;
+  border-radius: 30px;
+  width: 220px;
+  height: 47px;
+}
+
+.text-button p {
+  color: white;
+  font-weight: 600;
+}
+
+.text-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-title img {
+  margin-top: 25px;
+  width: 25px;
+  height: 14px;
+}
+
+.text-context {
+  margin-top: 10px;
+  position: relative;
+}
+
+.text-context img, .text-context p {
+  margin-left: 30px;
+}
+
+.text-button {
+  margin-left: 30px;
+}

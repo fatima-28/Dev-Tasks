@@ -135,3 +135,25 @@ cursor: pointer;
     background-color: #E74E13;
    
 }
+.second-main-inners-item:nth-child(1){
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+.second-main-inners-item{
+     width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        text-transform: uppercase;
+        margin-left: 10px;
+        font-weight: 500;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    
+}
