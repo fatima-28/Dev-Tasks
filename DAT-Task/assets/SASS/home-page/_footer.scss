@@ -1,0 +1,50 @@
+.footer-inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footers-item{
+    p{
+        margin-bottom: 20px;
+    }
+    height: 300px;
+    width: 270px;
+   // border: 1px solid black;
+    img{
+        margin-bottom: 20px;
+    }
+}
+footer{
+    padding: 90px 70px;
+    
+}
+.logo-dat{
+    height: 50px;
+}
+.footer-list{
+ 
+         display: block;
+    p{
+        margin-top: 20px;
+    }
+   
+}
+.buttob-back{
+    
+    display: flex;
+    justify-content: end;
+    img{
+        height: 80px;
+    }
+    a{
+        img{
+            height: 80px;
+        }
+    }
+}
+.back{
+    padding-right: 30px;
+    cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,25 @@
+.farmer-inner{
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url(https://image.shutterstock.com/image-photo/harvest-thanksgiving-background-autumnal-fruits-260nw-331602128.jpg);
+    min-height: 350px;
+   
+   
+}
+.farmer{
+    padding-top: 50px;
+    
+}
+.farmer-sect {
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: start;
+}
+.desc-farmer{
+    padding:20px 50px;
+    pre{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}

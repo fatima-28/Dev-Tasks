@@ -10,7 +10,14 @@ border-top-left-radius:90px ;
 border-bottom-right-radius:90px ;
     }
 }
+#magazine{
+    margin-top: 50px;
+}
 .magazine-main{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpaperaccess.com/full/177136.jpg);
     display: flex;
     justify-content: flex-end;
   gap: 120px;
@@ -23,6 +30,9 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .text-button{
+    transition: 2s;
+ 
+    cursor: pointer;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -50,9 +60,10 @@ p{
     position: relative;
     img,p{
      
-    margin-left: 30px;
+    margin-left: 0px;
     }
+   
 }
 .text-button{
-    margin-left: 30px
+    margin-right: 190px !important
 }

@@ -1,0 +1,37 @@
+
+#pro-nas{
+    margin-top: 60px;
+}.pro-nas{
+    width: 900px;
+    height: 360px;
+      margin: 0 auto;
+   
+}
+.pro-nas-inner{
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: 510px;
+        height: 450px;
+    }
+}
+.text-title{
+      font-size: 50px;
+    img{
+         width: 25px;
+        height: 14px;
+        margin-right: 10px;
+    }
+}
+
+.text-context{
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 450px;
+    padding: 20px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.diff-text{
+    color: #1E6140;
+}
