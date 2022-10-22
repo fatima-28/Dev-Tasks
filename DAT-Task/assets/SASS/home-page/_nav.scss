@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.hamburger{
+    display: none;
+}
 .navigation-part{
      background-color: #1E6140;
     display: flex;
@@ -65,4 +68,34 @@ ul{
         font-weight: 300;
         cursor: pointer;
     }
+}
+@media only screen and (width: 375px) {
+ .navigation-part-inner:nth-child(1){
+    display: none;
+ }
+ .navigation-part-inner:nth-child(2){
+    width: 100%;
+ }
+ .hamburger{
+    display: block;
+   margin-left: 150px;
+   margin-top: 6px;
+   color: #32a86d;
+ }
+ .specify,.input{
+display: none;
+ }
+.background-main-inner{
+    margin-right: 50px;
+}
+.rounded-items:nth-child(1){
+    display: none;
+}
+.second-main-items{
+    display: none !important;
+  
+}
+ .nasinyat{
+    display: flex !important;
+ }
 }

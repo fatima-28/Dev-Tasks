@@ -67,3 +67,35 @@ p{
 .text-button{
     margin-right: 190px !important
 }
+
+@media only screen and (width: 375px) {
+ .magazine-main{
+    flex-direction: column;
+ }
+ .magazine-inner{
+    padding: 20px;
+    box-sizing: border-box;
+    
+    img{
+                width: 306px;
+height: 280px;
+    }
+ }
+ .image-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        margin-bottom: 120px;
+    }
+ }
+ .text-context{
+    width: 300px !important;
+ }
+ .pro-nas-inner{
+    img{
+ width: 306px !important;
+height: 280px !important;
+    }
+ }
+}
