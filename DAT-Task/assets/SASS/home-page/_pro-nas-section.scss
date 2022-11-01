@@ -35,3 +35,18 @@
 .diff-text{
     color: #1E6140;
 }
+@media only screen and (width: 375px) {
+    .pro-nas-inner{
+  flex-wrap: wrap;
+   .text-title{
+       img{
+           width: 50px !important;
+           height: 50px !important;
+       }
+   }
+    img{
+        width: 510px;
+        height: 450px;
+    }
+}
+}

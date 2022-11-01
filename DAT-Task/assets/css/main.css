@@ -526,6 +526,21 @@ p {
   color: #1E6140;
 }
 
+@media only screen and (width: 375px) {
+  .pro-nas-inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .pro-nas-inner .text-title img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .pro-nas-inner img {
+    width: 510px;
+    height: 450px;
+  }
+}
+
 .title-section {
   margin: 0 auto;
   display: -webkit-box;
@@ -785,6 +800,13 @@ p {
 .desc-farmer pre {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (width: 375px) {
+  .desc-farmer {
+    overflow: hidden;
+    padding: 0px;
+  }
 }
 
 .footer-inner {

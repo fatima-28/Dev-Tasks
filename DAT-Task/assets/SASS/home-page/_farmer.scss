@@ -23,3 +23,12 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
+
+@media only screen and (width: 375px) {
+
+    .desc-farmer{
+        overflow: hidden;
+        padding: 0px;
+    }
+  
+}

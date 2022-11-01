@@ -73,104 +73,103 @@
 // For example, typing "25" will display "twenty five" in the console, and "13" will display "thirteen".
  
 
-// let num=prompt("enter  number:");
-// let lastNum=num%10;
+let num=prompt("enter  number:");
+let lastNum=num%10;
+let firstNum=parseInt(num/10);
 
-// let firstNum=parseInt(num/10);
-
-// let firstNumWithLetters="";
-// if (num<20) {
-//    if (num==11) {
-//     console.log("Eleven");
-// }
-// else if (num==12) {
-//      console.log("Twelve");
-// }
-// else if (num==13) {
-//      console.log("Thirteen");
-// }
-// else if (num==14) {
-//      console.log("Fourteen");
-// }
-// else if (num==15) {
-//      console.log("Fiveteen");
-// }
-// else if (num==16) {
-//      console.log("SixTeen");
-// }
-// else if (num==17) {
-//      console.log("Seventeen");
-// }
-// else if (num==18) {
-//      console.log("Eighteen");
-// }
-// else   {
-//      console.log("nineteen");
-// }
-// }
-// else{
-// switch (firstNum) {
-//     case 2:
-//         firstNumWithLetters="twenty";
-//         break;
-//           case 3:
-//         firstNumWithLetters="thirty";
-//         break;
-//          case 4:
-//         firstNumWithLetters="forty";
-//         break;
-//          case 5:
-//         firstNumWithLetters="fivety";
-//         break;
-//          case 6:
-//         firstNumWithLetters="sixty";
-//         break;
-//          case 7:
-//         firstNumWithLetters="seventy";
-//         break;
-//          case 8:
-//         firstNumWithLetters="eighty";
-//         break;
-//          case 9:
-//         firstNumWithLetters="ninety";
-//         break;
+let firstNumWithLetters="";
+if (num<20) {
+   if (num==11) {
+    console.log("Eleven");
+}
+else if (num==12) {
+     console.log("Twelve");
+}
+else if (num==13) {
+     console.log("Thirteen");
+}
+else if (num==14) {
+     console.log("Fourteen");
+}
+else if (num==15) {
+     console.log("Fiveteen");
+}
+else if (num==16) {
+     console.log("SixTeen");
+}
+else if (num==17) {
+     console.log("Seventeen");
+}
+else if (num==18) {
+     console.log("Eighteen");
+}
+else   {
+     console.log("nineteen");
+}
+}
+else{
+switch (firstNum) {
+    case 2:
+        firstNumWithLetters="twenty";
+        break;
+          case 3:
+        firstNumWithLetters="thirty";
+        break;
+         case 4:
+        firstNumWithLetters="forty";
+        break;
+         case 5:
+        firstNumWithLetters="fivety";
+        break;
+         case 6:
+        firstNumWithLetters="sixty";
+        break;
+         case 7:
+        firstNumWithLetters="seventy";
+        break;
+         case 8:
+        firstNumWithLetters="eighty";
+        break;
+         case 9:
+        firstNumWithLetters="ninety";
+        break;
 
 
-// }
-// switch (lastNum) {
-//        case 0:
-//        console.log(firstNumWithLetters);
-//         break;
-//     case 1:
-//        console.log(firstNumWithLetters+ " one");
-//         break;
+}
+switch (lastNum) {
+       case 0:
+       console.log(firstNumWithLetters);
+        break;
+    case 1:
+       console.log(firstNumWithLetters+ " one");
+        break;
 
-//    case 2:
-//        console.log(firstNumWithLetters+ " two");
-//         break;
-//          case 3:
-//        console.log(firstNumWithLetters+ " three");
-//         break;
-//          case 4:
-//        console.log(firstNumWithLetters+ " four");
-//         break;
-//          case 5:
-//        console.log(firstNumWithLetters+ " five");
-//         break;
-//          case 6:
-//        console.log(firstNumWithLetters+ " six");
-//         break;
-//          case 7:
-//        console.log(firstNumWithLetters+ " seven");
-//         break;
-//          case 8:
-//        console.log(firstNumWithLetters+ " eight");
-//         break;
-//          case 9:
-//        console.log(firstNumWithLetters+ " nine");
-//         break;
-// }
-// }
+   case 2:
+       console.log(firstNumWithLetters+ " two");
+        break;
+         case 3:
+       console.log(firstNumWithLetters+ " three");
+        break;
+         case 4:
+       console.log(firstNumWithLetters+ " four");
+        break;
+         case 5:
+       console.log(firstNumWithLetters+ " five");
+        break;
+         case 6:
+       console.log(firstNumWithLetters+ " six");
+        break;
+         case 7:
+       console.log(firstNumWithLetters+ " seven");
+        break;
+         case 8:
+       console.log(firstNumWithLetters+ " eight");
+        break;
+         case 9:
+       console.log(firstNumWithLetters+ " nine");
+        break;
+}
+}
 //7. User gives 3 numbers (x, y, r). Find out if point with location (x,y) is inside a circle with radius r? 
 //(the center of the circle is at the origin)
 
