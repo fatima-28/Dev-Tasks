@@ -74,6 +74,7 @@
     
 // }
 // console.log(cnt);
+
  
 // // 9. Sort the array in ascending order in one of the following ways: bubble sort, selection sort or insertion sort.
  
@@ -97,6 +98,35 @@
 
 
  
-// // // // // 6. Reverse this array (array in reverse direction) - you have to create YOUR OWN function, which WILL NOT create any new array
-// // // // // 8. Swap the first and second half of the array, for example, for an array of 1234, the result is 3412, or for 12345 the result will be 45312.
-// // // // // 10. Sort the array in descending order in one of the ways (different from the method taken in the 9th task): bubble sort, selection sort or insertion sort.
+
+
+
+
+//// 10. Sort the array in descending order in one of the ways 
+//(different from the method taken in the 9th task): bubble sort, selection sort or insertion sort.
+// let numbers=[5,9,10,2,3];
+// Sort(numbers);
+// function Sort(nums) {
+//     for (let i = 0; i < nums.length; i++) {
+//      let temperory=nums[i];
+//     let minElement=nums[i];
+//     let index=i;
+//     for (let j = i; j < nums.length; j++) {
+//         if(nums[j]<minElement){
+//             minElement=nums[j];
+//             index=j;
+//         }
+//     }
+//     nums[i]=minElement;
+//     nums[index]=temperory;
+//  }
+//  console.log(nums);
+// }
+
+
+//////// 6. Reverse this array (array in reverse direction) -
+// you have to create YOUR OWN function, which WILL NOT create any new array
+
+
+// // // 8. Swap the first and second half of the array, for example, 
+// // // for an array of 1234, the result is 3412, or for 12345 the result will be 45312.
