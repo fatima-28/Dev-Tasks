@@ -126,7 +126,27 @@
 
 //////// 6. Reverse this array (array in reverse direction) -
 // you have to create YOUR OWN function, which WILL NOT create any new array
+// let array=[6,8,1,2];
+// function reverse(arr){
+//     let temporary=0;
+//     for (let i = 0; i < array.length/2; i++) {
+//         temporary=arr[i];
+//         arr[i]=arr[arr.length-i-1];
+//         arr[arr.length-i-1]=temporary;
+//     }
+//     console.log(arr);
+// }
+// reverse(array);
 
 
 // // // 8. Swap the first and second half of the array, for example, 
 // // // for an array of 1234, the result is 3412, or for 12345 the result will be 45312.
+//let array=[6,8,1,2]
+// let temperory=0;
+// let half=0;
+// for (let i = 0; i < array.length/2-1; i++) {
+//     temperory=array[i];
+//     half=Math.round(array.length/2);
+//     array[i]=array[half+i];
+//     array[half+i]=temperory;
+// }
