@@ -16,3 +16,6 @@ for(const obj of boxArr){
                             </div>`;
                             box.appendChild(div);
 }
+
+
+
