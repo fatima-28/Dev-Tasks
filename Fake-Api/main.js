@@ -6,6 +6,7 @@
                    <img src="${item.flags.png}">
                     <h3>${item.name.common}</h3>
                     <p>${item.capital}</p>
+                    <p>${item.name.official}</p>
                     </div>`;
 
         maindiv.innerHTML += div;

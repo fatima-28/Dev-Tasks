@@ -1,0 +1,219 @@
+.slider-box{
+    min-height: 300px;
+    margin-top: 10px;
+   
+  
+    
+}
+.arrows{
+    cursor: pointer;
+    background-color: white;
+    opacity: 0.8;
+    color: black;
+    display: inline-block;
+}
+
+
+ .slider-box-inner{
+      div{
+          width: 100%;
+          min-height: 400px;
+            img{
+          
+            height: 550px;
+        }
+      }
+    }
+
+
+    .slider-buttons{
+        display: flex;
+        justify-content: space-evenly;
+        button{
+            background-color: rgb(254, 254, 211);
+            cursor: pointer;
+            border: 1px solid gray;
+            border-radius: 20px;
+            transition: 0.1s ease-in-out;
+            width: 120px;
+            &:active{
+                 background-color: rgb(255, 255, 183);
+            }
+        }
+      
+     
+    }
+@media only screen and (width: 375px) {
+.slider-text-inner{
+   
+        width: 350px;
+        position: absolute;
+         top: 40px;
+         left: 10px;
+         p{
+             color: white;
+             font-size: 20px;
+             text-transform: lowercase;
+         }
+         h3{
+             font-size: 45px;}}
+         
+    
+}
+@media only screen and (width: 414px) {
+.slider-text-inner{
+   
+        width: 400px;
+        position: absolute;
+         top: 40px;
+         left: 10px;
+         p{
+             color: white;
+             font-size: 20px;
+             text-transform: lowercase;
+         }
+         h3{
+             font-size: 45px;}}
+         
+    
+}
+@media only screen and (width: 390px) {
+.slider-text-inner{
+   
+        width: 350px;
+        position: absolute;
+         top: 40px;
+         left: 10px;
+         p{
+             
+             color: white;
+             font-size: 20px;
+             text-transform: lowercase;
+         }
+         h3{
+             font-size: 45px;}}
+         
+    
+}
+@media only screen and (width: 393px) {
+.slider-text-inner{
+   
+        width: 350px;
+        position: absolute;
+         top: 40px;
+         left: 10px;
+         p{
+             color: white;
+             font-size: 20px;
+             text-transform: lowercase;
+         }
+         h3{
+             font-size: 45px;}}
+         
+    
+}
+@media only screen and (width: 360px) {
+.slider-text-inner{
+   
+        width: 350px;
+        position: absolute;
+         top: 40px;
+         left: 10px;
+         p{
+             color: white;
+             font-size: 20px;
+             text-transform: lowercase;
+         }
+         h3{
+             font-size: 45px;}}
+         
+    
+}
+@media only screen and (width: 412px) {
+.slider-text-inner{
+   
+        width: 400px;
+        position: absolute;
+         top: 40px;
+         left: 10px;
+         p{
+             color: white;
+             font-size: 20px;
+             text-transform: lowercase;
+         }
+         h3{
+             font-size: 45px;}}
+         
+    
+}
+@media only screen and (width: 540px) {
+.slider-text-inner{
+   
+        width: 400px;
+        position: absolute;
+         top: 40px;
+         left: 70px;
+         p{ text-align: center;
+             color: white;
+             font-size: 20px;
+             text-transform: lowercase;
+         }
+         h3{
+             text-align: center;
+             font-size: 45px;}}
+         
+    
+}
+@media only screen and (width: 820px) {
+.slider-text-inner{
+        width: 350px;
+        position: absolute;
+         top: 100px;
+         right: -10px;}
+
+}
+
+@media only screen and (width: 768px) {
+.slider-text-inner{
+        width: 350px;
+        position: absolute;
+         top: 100px;
+         right: -10px;}
+
+}
+
+@media only screen and (width: 280px) {
+.slider-text-inner{
+  
+   box-sizing: border-box;
+        width: 250px;
+        position: absolute;
+         top: 40px;
+         left: 10px;
+         p{
+             color: white;
+             font-size: 15px;
+             text-transform: lowercase;
+         }
+         h3{
+             font-size: 45px;}}
+         
+    
+}
+
+@media only screen and (width: 912px) {
+.slider-text-inner{
+        width: 350px;
+        position: absolute;
+         top: 100px;
+         right: 0px;}
+
+}
+@media only screen and (width: 720px) {
+.slider-text-inner{
+        width: 350px;
+        position: absolute;
+         top: 100px;
+         right: 50px;}
+
+}
