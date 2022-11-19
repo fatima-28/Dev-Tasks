@@ -110,7 +110,7 @@ function CheckCage(animal:Animal,cage:Settlement) {
         }
     }
     else{
-        console.log(`This cage is not avilable for ${animal.name} animal`);
+        console.log(`This cage is not avilable for  -${animal.name}-  animal`);
     }
 }
 function ShowAllNamesInCage(cage:Settlement) {
@@ -119,5 +119,7 @@ function ShowAllNamesInCage(cage:Settlement) {
            } 
 }
 
-CheckCage(elephant,CageForElephant);
-CheckCage(elephant2,CageForElephant);
+// CheckCage(elephant,CageForElephant);
+// CheckCage(elephant2,CageForElephant);
+
+CheckCage(cat,CageForElephant);

@@ -54,7 +54,7 @@ function CheckCage(animal, cage) {
         }
     }
     else {
-        console.log("This cage is not avilable for ".concat(animal.name, " animal"));
+        console.log("This cage is not avilable for  -".concat(animal.name, "-  animal"));
     }
 }
 function ShowAllNamesInCage(cage) {
@@ -62,5 +62,6 @@ function ShowAllNamesInCage(cage) {
         console.log(cage.animals[i].name);
     }
 }
-CheckCage(elephant, CageForElephant);
-CheckCage(elephant2, CageForElephant);
+// CheckCage(elephant,CageForElephant);
+// CheckCage(elephant2,CageForElephant);
+CheckCage(cat, CageForElephant);
