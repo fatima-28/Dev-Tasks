@@ -96,9 +96,7 @@ let CageForElephant:Settlement={
 
 function CheckCage(animal:Animal,cage:Settlement) {
      let count:number=0;
-    if (animal.reservoir==cage.reservior&&animal.biome==cage.biome&&animal.IsPredator==cage.IsForPredator) {
-
-             
+    if (animal.reservoir==cage.reservior&&animal.biome==cage.biome&&animal.IsPredator==cage.IsForPredator) {  
             for (let j = 0; j < cage.animals.length; j++) {
                count=count+1;  
             }
@@ -108,24 +106,18 @@ function CheckCage(animal:Animal,cage:Settlement) {
 
         }
         else{
-            console.log("there are not enough space in this cage");
-            
+            console.log("there are not enough space in this cage");  
         }
-      
-     
     }
     else{
         console.log(`This cage is not avilable for ${animal.name} animal`);
-        
     }
 }
 function ShowAllNamesInCage(cage:Settlement) {
     for (let i = 0; i < cage.animals.length; i++) {
-              console.log(cage.animals[i].name);
-               
+              console.log(cage.animals[i].name); 
            } 
 }
-
 
 CheckCage(elephant,CageForElephant);
 CheckCage(elephant2,CageForElephant);
