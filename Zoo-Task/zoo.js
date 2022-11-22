@@ -47,7 +47,6 @@ function CheckCage(animal, cage) {
         }
         if (cage.capacity > count) {
             cage.animals.push(animal);
-            ShowAllNamesInCage(cage);
         }
         else {
             console.log("there are not enough space in this cage");
@@ -62,6 +61,7 @@ function ShowAllNamesInCage(cage) {
         console.log(cage.animals[i].name);
     }
 }
-// CheckCage(elephant,CageForElephant);
-// CheckCage(elephant2,CageForElephant);
-CheckCage(cat, CageForElephant);
+CheckCage(elephant, CageForElephant);
+CheckCage(elephant2, CageForElephant);
+ShowAllNamesInCage(CageForElephant);
+// CheckCage(cat,CageForElephant);

@@ -102,7 +102,7 @@ function CheckCage(animal:Animal,cage:Settlement) {
             }
         if (cage.capacity>count) {
             cage.animals.push(animal);
-          ShowAllNamesInCage(cage) ;
+          
 
         }
         else{
@@ -119,7 +119,7 @@ function ShowAllNamesInCage(cage:Settlement) {
            } 
 }
 
-// CheckCage(elephant,CageForElephant);
-// CheckCage(elephant2,CageForElephant);
-
-CheckCage(cat,CageForElephant);
+CheckCage(elephant,CageForElephant);
+CheckCage(elephant2,CageForElephant);
+ShowAllNamesInCage(CageForElephant) ;
+// CheckCage(cat,CageForElephant);
